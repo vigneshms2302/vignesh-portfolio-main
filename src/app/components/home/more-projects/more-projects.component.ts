@@ -11,31 +11,12 @@ export class MoreProjectsComponent implements OnInit {
   Projects = [
     {
      
-      Title:'Quizz App',
+      Title:'sample App',
       Description:'The Simple Quiz App is a user-friendly and straightforward application designed to offer a fun and interactive quiz experience. the quiz consists of multiple-choice questions, and users can select their answers from the provided options.',
       Technologies:['Html','Css','javaScript' , 'Jquery'],
       ghLink:'https://github.com/Vignesheldin/quizz-app',
       demoLink:'https://quizzzz-app-js.netlify.app/'
-    },
-
-
-    {
-     
-      Title:'techivo',
-      Description:'techivo site  (personal practicing on design)',
-      Technologies:['Html','Css','Animation','Responsive'],
-      ghLink:'https://github.com/Vignesheldin/techivo',
-      demoLink:'https://techivo.netlify.app/'
-    },
-
-    {
-     
-      Title:'devolio',
-      Description:'devolio site  (personal practicing on design)',
-      Technologies:['Html','Css','Animation','Responsive'],
-      ghLink:'https://github.com/Vignesheldin/devolio',
-      demoLink:'https://devoliooo.netlify.app/'
-    },
+    }, 
 
   ]
   constructor(
