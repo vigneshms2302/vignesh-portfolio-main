@@ -11,11 +11,11 @@ export class ProjectsComponent implements OnInit {
   Projects = [
     {
       imgs:[
-        '../../../../assets/images/portfolio/1.png',
-        '../../../../assets/images/portfolio/2.png',
-        '../../../../assets/images/portfolio/3.png',
-        '../../../../assets/images/portfolio/4.png',
-        '../../../../assets/images/portfolio/5.png',
+        'assets/images/portfolio/1.png',
+        'assets/images/portfolio/2.png',
+        'assets/images/portfolio/3.png',
+        'assets/images/portfolio/4.png',
+        'assets/images/portfolio/5.png',
       ],
       Title:'Personal Portfolio',
       Description:'This project started with a simple idea: "What if my portfolio could prescribe joy and excitement instead of just showcasing my skills?" So, I embarked on a journey to enhance the safety of prescribing good vibes and to tackle the challenges related to boring portfolios, which can have a significant impact on the viewer’s interest. The ultimate goal? To contribute to the overall improvement of internet happiness and make your visit to my portfolio a delightful experience!',
