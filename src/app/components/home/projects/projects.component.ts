@@ -11,15 +11,17 @@ export class ProjectsComponent implements OnInit {
   Projects = [
     {
       imgs:[
-        '../../../../assets/images/medmatch/screenshot.png',
-        '../../../../assets/images/medmatch/screenshot (1).png',
-        '../../../../assets/images/medmatch/screenshot (2).png',
-        '../../../../assets/images/medmatch/screenshot (3).png'],
+        '../../../../assets/images/portfolio/1.png',
+        '../../../../assets/images/portfolio/2.png',
+        '../../../../assets/images/portfolio/3.png',
+        '../../../../assets/images/portfolio/4.png',
+        '../../../../assets/images/portfolio/5.png',
+      ],
       Title:'Personal Portfolio',
-      Description:'The purpose of this project is to enhance the safety of prescribing drugs and to address the challenges related to prescribing errors which can have significant damage the patient’s health, the project ultimate goal is to contribute to the overall improvement of medication safety in the healthcare department.',
-      Technologies:['Angular','SCSS','Angular-Material','Type Script', 'Html'],
-      ghLink:'https://github.com/vigneshms2302/vignesh.portfolio.com',
-      demoLink:'https://vigneshms2302.github.io/vignesh.portfolio.com/'
+      Description:'This project started with a simple idea: "What if my portfolio could prescribe joy and excitement instead of just showcasing my skills?" So, I embarked on a journey to enhance the safety of prescribing good vibes and to tackle the challenges related to boring portfolios, which can have a significant impact on the viewer’s interest. The ultimate goal? To contribute to the overall improvement of internet happiness and make your visit to my portfolio a delightful experience!',
+      Technologies:['Angular','SCSS','Java Script','Type Script', 'Html'],
+      ghLink:'https://github.com/vigneshms2302/vignesh-portfolio-main',
+      demoLink:'https://vigneshms2302.github.io/vignesh-portfolio-main/'
     },
 
     // {
