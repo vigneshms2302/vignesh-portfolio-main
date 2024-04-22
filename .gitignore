@@ -1,0 +1,67 @@
+# IDE/Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Node.js files
+node_modules/
+npm-debug.log
+
+# Compiled output
+/dist/
+/tmp/
+/out-tsc/
+
+# Dependency directories
+/dependencies/
+/bower_components/
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Angular configuration
+.angular-config.json
+.angular-cli.json
+.angular.json
+
+# Angular generated files
+*.ngsummary.json
+*.ngfactory.ts
+
+# Compiled TypeScript
+*.js
+*.js.map
+*.d.ts
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.log.*
+npm-debug.log*
+
+# Environment variables
+.env
+.env.prod
+.env.stage
+
+# IDE and editor configurations
+/.idea
+/.vscode
+
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Runtime data
+.pnp/
+
+# Yarn integrity file
+.yarn-integrity
+
+# Angular CLI GH pages
+.angular-cli-ghpages
+.angular/cache
