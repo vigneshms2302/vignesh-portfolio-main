@@ -71,7 +71,9 @@ footer{
         left: 0;
         right: 0;
         margin-top: -60px;
-
+        @media (max-width: 768px) { 
+            margin-left : 102px; /* Add your desired margin-left */
+        }
         a{
             color: $LightSlate;
             -webkit-transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
@@ -86,5 +88,7 @@ footer{
                 color: $Green;
             }
         }
-    }
+    }    
 }
+
+  

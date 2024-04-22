@@ -10,14 +10,11 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 export class MoreProjectsComponent implements OnInit {
   Projects = [
     {
-     
-      Title:'sample App',
-      Description:'The Simple Quiz App is a user-friendly and straightforward application designed to offer a fun and interactive quiz experience. the quiz consists of multiple-choice questions, and users can select their answers from the provided options.',
-      Technologies:['Html','Css','javaScript' , 'Jquery'],
-      ghLink:'https://github.com/Vignesheldin/quizz-app',
-      demoLink:'https://quizzzz-app-js.netlify.app/'
-    }, 
-
+      Title: 'Personal Portfolio (Figma Design)',
+      Description: "This Figma prototype showcases my personal portfolio website. Designed with a focus on clarity and user experience, it allows visitors to easily navigate my skills, experience, and projects. The clean and engaging design reflects my personality and creative vision.",
+      Tags: ['#Portfolio', '#UxUiDesign', '#Figma', '#WebDesign'],
+      demoLink: 'https://www.figma.com/proto/RI8JhCOFtueGGYY7ixy0DR/portfolio?type=design&node-id=7-2&t=rfjzpqXVkg28n2DT-0&scaling=min-zoom&page-id=0%3A1'
+    },
   ]
   constructor(
     private router: Router,
